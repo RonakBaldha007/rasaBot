@@ -195,6 +195,8 @@ actions:
   - action_ask_Question6
   - action_ask_interested_job
   - utter_details_thanks
+  - action_user_details_form
+  - validate_user_details_form
   - validate_user_details_form_2
   
 
