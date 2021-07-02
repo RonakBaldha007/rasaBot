@@ -1,0 +1,150 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: initiate_form
+  examples: |
+    - apply
+    - job
+    - I want job
+    - apply job
+
+- intent: initiate_form_2
+  examples: |
+    - form 2
+    - form job intent
+    - template 2
+
+- intent: first_name
+  examples: |
+    - my name is [ronak]{"entity":"firstname","value":"ronak"}
+    - my name is [ashish]{"entity":"firstname","value":"ashish"}
+    - my name is [rahul]{"entity":"firstname","value":"rahul"}
+    - my name is [apneet]{"entity":"firstname","value":"apneet"}
+    - [ashish]{"entity":"firstname","value":"ashish"} is my name
+    - [ronak]{"entity":"firstname","value":"ronak"} is my name
+    - [ashish]{"entity":"firstname","value":"ashish"} this side
+    - people call me [ashish]{"entity":"firstname","value":"ashish"}
+    - people call me [ronak]{"entity":"firstname","value":"ronak"}
+
+- intent: last_name
+  examples: |
+    - my last name is [baldha]{"entity":"lastname","value":"baldha"}
+    - my last name is [baldha]{"entity":"lastname","value":"baldha"}
+    - my last name is [baldha]{"entity":"lastname","value":"baldha"}
+    - my last name is [baldha]{"entity":"lastname","value":"baldha"}
+    - [baldha]{"entity":"lastname","value":"baldha"} is my last name
+    - [baldha]{"entity":"lastname","value":"baldha"} is my last name
+    - [baldha]{"entity":"lastname","value":"baldha"} this side
+    - people call me [baldha]{"entity":"lastname","value":"baldha"}
+    - people call me [baldha]{"entity":"lastname","value":"baldha"}
+
+- intent: email
+  examples: |
+    - [me@gmail.com]{"entity":"email","value":"me@gmail.com"}
+    - here is my email [hello@mail.com]{"entity":"email","value":"hello@mail.com"}
+    - [example@mail.com]{"entity":"email","value":"example@mail.com"}
+    - [jojo@yahoo.com]{"entity":"email","value":"jojo@yahoo.com"}
+
+
+- intent: zip_code
+  examples: |
+    - my zipcode is [12345]{"entity":"zipcode","value":"12345"}
+    - [12345]{"entity":"zipcode","value":"12345"}
+
+- intent: job_category
+  examples: |
+    - [accounting]{"entity":"job","value":"accounting"}
+    - [financial]{"entity":"job","value":"financial"}
+    - [human resources]{"entity":"job","value":"human resources"}
+    - [information technology]{"entity":"job","value":"information technology"}
+

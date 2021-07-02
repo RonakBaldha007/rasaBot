@@ -1,0 +1,580 @@
+{
+    "zip_codes": [
+        {
+            "zip_code": "00647",
+            "distance": 31.496,
+            "city": "Ensenada",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00732",
+            "distance": 34.553,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00733",
+            "distance": 34.553,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00734",
+            "distance": 34.553,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00653",
+            "distance": 29.577,
+            "city": "Guanica",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00728",
+            "distance": 32.021,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00622",
+            "distance": 34.78,
+            "city": "Boqueron",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00716",
+            "distance": 33.645,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00757",
+            "distance": 42.345,
+            "city": "Santa Isabel",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00751",
+            "distance": 49.199,
+            "city": "Salinas",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00717",
+            "distance": 32.709,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00667",
+            "distance": 30.437,
+            "city": "Lajas",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00715",
+            "distance": 34.172,
+            "city": "Mercedita",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00730",
+            "distance": 30.978,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00656",
+            "distance": 25.24,
+            "city": "Guayanilla",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00795",
+            "distance": 34.086,
+            "city": "Juana Diaz",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00698",
+            "distance": 24.031,
+            "city": "Yauco",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00624",
+            "distance": 25.892,
+            "city": "Penuelas",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00637",
+            "distance": 23.838,
+            "city": "Sabana Grande",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00623",
+            "distance": 29.653,
+            "city": "Cabo Rojo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00780",
+            "distance": 28.91,
+            "city": "Coto Laurel",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00769",
+            "distance": 39.492,
+            "city": "Coamo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00683",
+            "distance": 23.922,
+            "city": "San German",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00731",
+            "distance": 25.734,
+            "city": "Ponce",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00705",
+            "distance": 43.833,
+            "city": "Aibonito",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00766",
+            "distance": 31.912,
+            "city": "Villalba",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00660",
+            "distance": 25.342,
+            "city": "Hormigueros",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00636",
+            "distance": 22.236,
+            "city": "Rosario",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00786",
+            "distance": 45.245,
+            "city": "La Plata",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00606",
+            "distance": 18.135,
+            "city": "Maricao",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00739",
+            "distance": 48.936,
+            "city": "Cidra",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00601",
+            "distance": 17.688,
+            "city": "Adjuntas",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00680",
+            "distance": 23.729,
+            "city": "Mayaguez",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00631",
+            "distance": 15.48,
+            "city": "Castaner",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00794",
+            "distance": 39.261,
+            "city": "Barranquitas",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00681",
+            "distance": 23.292,
+            "city": "Mayaguez",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00664",
+            "distance": 22.701,
+            "city": "Jayuya",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00720",
+            "distance": 31.604,
+            "city": "Orocovis",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00682",
+            "distance": 23.243,
+            "city": "Mayaguez",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00782",
+            "distance": 44.062,
+            "city": "Comerio",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00670",
+            "distance": 14.436,
+            "city": "Las Marias",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00703",
+            "distance": 49.42,
+            "city": "Aguas Buenas",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00641",
+            "distance": 14.321,
+            "city": "Utuado",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00669",
+            "distance": 9.366,
+            "city": "Lares",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00611",
+            "distance": 10.364,
+            "city": "Angeles",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00958",
+            "distance": 48.998,
+            "city": "Bayamon",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00719",
+            "distance": 40.941,
+            "city": "Naranjito",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00610",
+            "distance": 18.918,
+            "city": "Anasco",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00638",
+            "distance": 24.225,
+            "city": "Ciales",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00783",
+            "distance": 36.071,
+            "city": "Corozal",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00971",
+            "distance": 49.269,
+            "city": "Guaynabo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00687",
+            "distance": 29.79,
+            "city": "Morovis",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00956",
+            "distance": 45.935,
+            "city": "Bayamon",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00677",
+            "distance": 24.415,
+            "city": "Rincon",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00685",
+            "distance": 8.345,
+            "city": "San Sebastian",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00650",
+            "distance": 19.248,
+            "city": "Florida",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00953",
+            "distance": 40.318,
+            "city": "Toa Alta",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00602",
+            "distance": 20.734,
+            "city": "Aguada",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00969",
+            "distance": 49.682,
+            "city": "Guaynabo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00957",
+            "distance": 44.47,
+            "city": "Bayamon",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00676",
+            "distance": 14.329,
+            "city": "Moca",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00970",
+            "distance": 49.486,
+            "city": "Guaynabo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00688",
+            "distance": 15.729,
+            "city": "Sabana Hoyos",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00959",
+            "distance": 46.504,
+            "city": "Bayamon",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00954",
+            "distance": 40.298,
+            "city": "Toa Alta",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00966",
+            "distance": 48.95,
+            "city": "Guaynabo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00612",
+            "distance": 10.055,
+            "city": "Arecibo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00659",
+            "distance": 3.625,
+            "city": "Hatillo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00692",
+            "distance": 34.595,
+            "city": "Vega Alta",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00934",
+            "distance": 48.491,
+            "city": "Fort Buchanan",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00627",
+            "distance": 0,
+            "city": "Camuy",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00961",
+            "distance": 45.862,
+            "city": "Bayamon",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00960",
+            "distance": 47.102,
+            "city": "Bayamon",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00616",
+            "distance": 12.594,
+            "city": "Bajadero",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00674",
+            "distance": 24.575,
+            "city": "Manati",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00693",
+            "distance": 30.62,
+            "city": "Vega Baja",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00952",
+            "distance": 44.745,
+            "city": "Sabana Seca",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00951",
+            "distance": 40.014,
+            "city": "Toa Baja",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00604",
+            "distance": 18.78,
+            "city": "Aguadilla",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00605",
+            "distance": 18.78,
+            "city": "Aguadilla",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00963",
+            "distance": 49.443,
+            "city": "Catano",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00949",
+            "distance": 42.723,
+            "city": "Toa Baja",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00646",
+            "distance": 37.924,
+            "city": "Dorado",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00965",
+            "distance": 49.148,
+            "city": "Guaynabo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00678",
+            "distance": 4.391,
+            "city": "Quebradillas",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00962",
+            "distance": 46.924,
+            "city": "Catano",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00617",
+            "distance": 20.07,
+            "city": "Barceloneta",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00652",
+            "distance": 17.862,
+            "city": "Garrochales",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00613",
+            "distance": 9.161,
+            "city": "Arecibo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00614",
+            "distance": 9.161,
+            "city": "Arecibo",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00603",
+            "distance": 17.007,
+            "city": "Aguadilla",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00950",
+            "distance": 41.477,
+            "city": "Toa Baja",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00901",
+            "distance": 49.931,
+            "city": "San Juan",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00662",
+            "distance": 10.671,
+            "city": "Isabela",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00694",
+            "distance": 31.392,
+            "city": "Vega Baja",
+            "state": "PR"
+        },
+        {
+            "zip_code": "00690",
+            "distance": 16.393,
+            "city": "San Antonio",
+            "state": "PR"
+        }
+    ]
+}

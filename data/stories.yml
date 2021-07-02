@@ -1,0 +1,73 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+# - story: find jobs zipcode
+#   steps:
+#   - intent: zip_code
+#   - action: action_zipcode
+
+# - story: interactive_story
+#   steps:
+#   - intent: initiate_form_2
+#   - action: utter_form_info
+#   - action: user_details_form_2
+#   - active_loop: user_details_form_2
+#   - slot_was_set:
+#     - requested_slot: firstname
+#   - slot_was_set:
+#     - firstname: ronak
+#   - slot_was_set:
+#     - requested_slot: lastname
+#   - slot_was_set:
+#     - lastname: baldha
+#   - slot_was_set:
+#     - requested_slot: job_pos
+#   - slot_was_set:
+#     - job_pos: JOB A
+#   - slot_was_set:
+#     - requested_slot: email
+#   - slot_was_set:
+#     - email: me@gmail.com
+#   - slot_was_set:
+#     - requested_slot: zipcode
+#   - slot_was_set:
+#     - zipcode: 602
+#   - action: action_zipcode
+  
+#   # - slot_was_set:
+#   #   - requested_slot: job
+#   # - slot_was_set:
+#   #   - job: accounting
+#   - slot_was_set:
+#     - requested_slot: submit
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null

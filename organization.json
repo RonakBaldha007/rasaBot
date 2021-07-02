@@ -1,0 +1,36 @@
+{
+  "orgId": "Cadient",
+  "audit": {
+    "createdAt": "2021-06-30T08:31:22.082Z",
+    "createdBy": "manager1",
+    "modifiedAt": "2021-06-30T08:31:22.083Z",
+    "modifiedBy": "manager2"
+  },
+  "name": "Cadient",
+  "configuration": [
+    {
+      "name": "chatbot",
+      "isActive": true,
+      "questions": [
+        "can you work in the night shift?",
+        "are you okay to relocate?",
+        "are you good to learn new technology?",
+        "Are you eligible to work in the country in which this position is located?",
+        "Some of our positions require candidates to be at least 18. Are you now at least 18 years of age?",
+        "Please review our Terms and conditions and reply Yes to consent to these term and condition."
+      ]
+    },
+    {
+      "name": "twoWayTextUI",
+      "isActive": true,
+      "background": "white",
+      "logo": "this.png",
+      "header": "blue",
+      "footer": "blue"
+    },
+    {
+      "name": "SSO",
+      "isActive": true
+    }
+  ]
+}

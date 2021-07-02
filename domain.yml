@@ -1,0 +1,249 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - initiate_form
+  - initiate_form_2
+  - first_name:
+      use_entities: true
+  - last_name:
+      use_entities: true 
+  - email:
+      use_entities: true
+  - zip_code:
+      use_entities: true
+  - job_category:
+      use_entities: true
+      
+entities:
+  - firstname
+  - lastname
+  - email
+  - zipcode
+  - job
+  - submit
+
+slots:
+  name_spelled_correctly:
+    type: bool
+    auto_fill: false
+  firstname:
+    type: text
+    auto_fill: false
+  lastname:
+    type: text
+    auto_fill: false
+  email:
+    type: text
+    auto_fill: false
+  job_pos:
+    type: any
+    auto_fill: false   
+  zipcode:
+    type: text
+    auto_fill: false
+  job:
+    type: text
+    auto_fill: false
+  interested_job:
+    type: text
+    auto_fill: false
+  Question1:
+    type: text
+    auto_fill: false
+  Question2:
+    type: text
+    auto_fill: false
+  Question3:
+    type: text
+    auto_fill: false
+  Question4:
+    type: text
+    auto_fill: false
+  Question5:
+    type: text
+    auto_fill: false
+  Question6:
+    type: text
+    auto_fill: false
+  submit:
+    type: text
+    auto_fill: false
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_form_info:
+  - text: We are initiating to take your details.
+
+  utter_ask_firstname:
+  - text: What is your first name?
+
+  utter_ask_lastname:
+  - text: What is your last name?
+
+  utter_ask_name_spelled_correctly:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Is {firstname} spelled correctly?
+
+  utter_ask_email:
+  - text: can you provide me your email id?
+
+  utter_ask_job_pos:
+  - text: "Great!\nwhich position are you interested in?"
+    buttons:
+    - title: Position A
+      payload: Position A
+    - title: Position B
+      payload: Position B
+    - title: Position C
+      payload: Position C
+    - title: Position D
+      payload: Position D
+  
+  utter_interested_job:
+  - text: "Great!\nwhich job are you interested in?"
+    buttons:
+    - title: JOB A
+      payload: JOB A
+    - title: JOB B
+      payload: JOB B
+    - title: JOB C
+      payload: JOB C
+    - title: JOB D
+      payload: JOB D
+
+  utter_ask_zipcode:
+  - text: I'd like to help you to find jobs near you. What is your zipcode?
+
+  utter_ask_job:
+  - text: What type of job of are you interested in?
+
+  utter_ask_submit:
+  - text: "are you sure to submit the form (y/n)?"
+    buttons:
+    - title: yes
+      payload: yes
+    - title: No
+      payload: No
+
+  utter_thanks:
+    - text: Thanks for providing the values.
+
+  utter_details_thanks:
+    - text: "Thanks for providing the given details \n
+              first Name: {firstname} \n
+              second name: {lastname} \n
+              job_pos: {job_pos} \n
+              email : {email} \n
+              zipcode : {zipcode}\n
+              job : {job} \n"
+
+  utter_details2_thanks:
+    - custom:
+        text: "Thanks for providing the given details...."
+        FirstName: "{FirstName}" 
+        LastName: "{LastName}" 
+        JobPosition: "{JobPosition}" 
+        Email : "{Email}" 
+        ZipCode : "{ZipCode}"
+        Interested_Job: "{interested_job}" 
+        Question1: "{Question1}" 
+        Question2: "{Question2}" 
+        Question3: "{Question3}" 
+        Question4: "{Question4}" 
+        Question5: "{Question5}"
+        Question6: "{Question6}" 
+
+  utter_out_of_scope:
+    - text: Sorry, I didn't get what you said. Please rephrase what you said.
+
+actions:
+  - action_ask_Question1
+  - action_ask_Question2
+  - action_ask_Question3
+  - action_ask_Question4
+  - action_ask_Question5
+  - action_ask_Question6
+  - action_ask_interested_job
+  - utter_details_thanks
+  - validate_user_details_form
+  - validate_user_details_form_2
+  
+
+forms:  
+  user_details_form:
+    firstname:
+      - type: from_text    
+    lastname:
+      - type: from_text 
+    email:
+      - type: from_text    
+    zipcode:
+      - type: from_text    
+    job:
+      - type: from_text
+    submit:
+      - type: from_text
+  user_details_form_2:
+    firstname:
+      - type: from_text
+    lastname:
+      - type: from_text
+    job_pos:
+      - type: from_text
+    email:
+      - type: from_text
+    zipcode:
+      - type: from_text   
+    interested_job:
+      - type: from_text
+    Question1:
+      - type: from_text
+    Question2:
+      - type: from_text
+    Question3:
+      - type: from_text
+    Question4:
+      - type: from_text
+    Question5:
+      - type: from_text
+    Question6:
+      - type: from_text
+    submit:
+      - type: from_text
+        
+     
+        
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
