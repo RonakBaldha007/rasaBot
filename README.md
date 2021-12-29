@@ -1,6 +1,6 @@
 # Create Chatbot using Rasa 🤖
 
-##Install Rasa:
+## Install Rasa:
 ```
 conda install python=3.6
 conda create -n rasa python=3.6
