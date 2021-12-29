@@ -1,4 +1,30 @@
-# Chatbot Widget designed for Rasa Bots 🤖
+# Create Chatbot using Rasa 🤖
+
+##Install Rasa:
+```
+conda install python=3.6
+conda create -n rasa python=3.6
+source activate rasa
+```
+
+
+
+## Create a new Project in Rasa:
+Open Terminal and activate Conda Virtual Environment. Now go-to one directory and do “rasa init”, it will create a Rasa Project at that location.
+
+> source activate rasa
+> rasa init
+
+
+## Play with Sample Chatbot:
+Rasa created a sample Bot for you with default data. So now you can start using it from Shell/Terminal. As a starting point let’s test your Chatbot from a terminal (remember to do this in Terminal)
+
+>  rasa shell
+
+
+##Training Model:
+>  rasa train
+
 
 A Chat widget easy to connect to RASA bot through [Rest]
 
